@@ -1,0 +1,8 @@
+# Beginning of furiosa dev dependencies
+RUN apt-get -yy install \
+    pkg-config \
+    libssl-dev \
+    gcc-aarch64-linux-gnu \
+    libclang-dev \
+    libpython3-dev
+# End of furiosa dev dependencies
